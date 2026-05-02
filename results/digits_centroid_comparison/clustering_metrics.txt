@@ -1,0 +1,24 @@
+Digits comparison with standardized raw features and shared PCA clustering space
+n = 1797, raw d = 64, selected PCA r = 3
+PCA dimension rule = broken_stick_dp_capped
+PCA selected raw r = 8
+PCA selected capped r = 3
+PCA selected cumulative variance = 0.300394
+Ahn-Horenstein r = 61
+Broken-stick r = 8
+Kaiser r = 19
+Participation effective rank = 20.227482 -> 21
+Entropy effective rank = 31.090848 -> 32
+Variance ranks: r80=21, r85=25, r90=31
+All methods clustered on the shared PCA representation.
+Centroid MSE is computed after inverse PCA back to standardized raw feature space.
+DP-GRAMS-C candidate_points = None; default public-box grid DAP is used.
+DP-GRAMS-C internal d_ambient = 3
+DP-GRAMS-C init strategy = grid
+Silverman bandwidth h_base = 1.10644676
+DP-GRAMS h_used = 1.10644676
+DP-GRAMS-C settings: indicator utility, logarithmic suppression, kappa_init=3, init_epsilon_frac=0.3, clip_multiplier=1, c_rho=2.0, dap_score_multiplier=10.0, R=None, dap_init_strategy=grid
+MS Clustering: ARI=0.4795, NMI=0.5665, MSE=7.953178, Runtime=0.0726s
+DP-GRAMS-C: ARI=0.4453, NMI=0.5353, MSE=9.403223, Runtime=0.3522s
+KMeans: ARI=0.4482, NMI=0.5596, MSE=10.032020, Runtime=0.0911s
+DP-KMeans: ARI=0.2648, NMI=0.4298, MSE=18.781021, Runtime=0.0260s

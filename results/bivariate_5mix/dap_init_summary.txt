@@ -1,0 +1,10 @@
+DAP Initialization Summary
+---------------------------
+Num data points: 1200
+Num candidate points: 1849
+k (anchors): 43
+Epsilon init: 0.100000
+Epsilon per draw: 0.002326
+Init score: local empirical mass score
+u-score min/max: 0 / 0.2025
+avg selection prob min/max: 1.22965e-05 / 0.000783057

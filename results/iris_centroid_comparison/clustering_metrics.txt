@@ -1,0 +1,6 @@
+Silverman bandwidth h = 0.68538291
+DP-GRAMS-C defaults: clip=0.1, kappa=8, init_frac=0.3, R=None, h_multiplier=1
+MS Clustering: ARI=0.6451, NMI=0.6895, MSE=0.188511, Runtime=0.0012s
+DP-GRAMS-C: ARI=0.6567, NMI=0.6686, MSE=0.506781, Runtime=0.0302s
+KMeans: ARI=0.6201, NMI=0.6595, MSE=0.077142, Runtime=0.0245s
+DP-KMeans: ARI=0.5138, NMI=0.6093, MSE=7.101521, Runtime=0.0098s

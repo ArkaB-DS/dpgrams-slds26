@@ -1,0 +1,17 @@
+n_samples: 1200
+dimension d: 2
+T (MS iterations): 8
+T (DP iterations): internal via dp_grams (cT * base_T)
+privacy epsilon: 1.0
+privacy delta: 1e-06
+bandwidth h (Silverman on data): 1.326928
+clip_multiplier: 0.08
+kappa_init: 1.7
+init_epsilon_frac: 0.5
+eta: 1.0
+MS initialization: full dataset as initial_modes
+
+MS MSE mean±std: 0.005275 ± 0.000000
+DP-GRAMS MSE mean±std: 0.031340 ± 0.017356
+MS time mean±std: 0.3262 ± 0.0096
+DP-GRAMS time mean±std: 0.0072 ± 0.0057

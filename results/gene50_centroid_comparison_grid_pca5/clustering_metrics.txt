@@ -1,0 +1,27 @@
+Classes: ['BRCA', 'COAD', 'KIRC', 'LUAD', 'PRAD']
+Raw standardized shape: n=801, d=20531
+PCA dimension rule: broken_stick_dp_capped
+PCA selected raw r: 123
+PCA selected capped r: 3
+PCA selected cumulative variance: 0.271041
+Ahn-Horenstein r: 800
+Broken-stick r: 123
+Kaiser r: 101
+Participation effective rank: 30.639016 -> 31
+Entropy effective rank: 135.923490 -> 136
+Variance ranks: r80=183, r85=262, r90=373
+Shared PCA dimension for all methods: 3
+PCA whitening: True
+All methods clustered on the shared PCA representation.
+Centroid MSE is computed after inverse PCA back to standardized gene space.
+DP-GRAMS-C candidate_points = None; no data points are used as DAP candidates.
+DP-GRAMS-C internal d_ambient: 3
+DP-GRAMS-C init strategy: grid
+DAP diagnostic axis_count≈13, full_grid_candidates≈2197
+Silverman bandwidth h = 0.50233175
+DP-GRAMS h_used = 0.50233175
+DP-GRAMS-C settings: indicator utility, logarithmic suppression, kappa_init=3.0, init_epsilon_frac=0.1, clip_multiplier=0.1, c_rho=2.0, dap_score_multiplier=10.0, R=None, dap_init_strategy=grid
+MS Clustering: ARI=0.5650, NMI=0.6546, MSE=5791.714515, Runtime=0.0203s
+DP-GRAMS-C: ARI=0.5381, NMI=0.6280, MSE=3169.492754, Runtime=0.0103s
+KMeans: ARI=0.6025, NMI=0.6676, MSE=1942.621144, Runtime=0.0603s
+DP-KMeans: ARI=0.4223, NMI=0.5617, MSE=7915.198811, Runtime=0.0139s

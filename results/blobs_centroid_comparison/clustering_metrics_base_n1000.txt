@@ -1,0 +1,13 @@
+Silverman bandwidth h_base = 0.43110254
+All clustering and MSE are in standardized feature space.
+DP-GRAMS-C candidate_points = None; default public DAP grid is used.
+DP-GRAMS-C clip_multiplier = 0.1
+DP-GRAMS-C kappa_init = 5.0
+DP-GRAMS-C init_epsilon_frac = 0.1
+DP-GRAMS-C c_rho = 2.0
+DP-GRAMS-C R = None
+
+MS Clustering: ARI=0.8233, NMI=0.8016, MSE=0.142042, Runtime=0.0211s
+DP-GRAMS-C: ARI=0.8382, NMI=0.8415, MSE=0.088112, Runtime=0.0124s
+KMeans: ARI=0.8874, NMI=0.8641, MSE=0.000729, Runtime=0.0339s
+DP-KMeans: ARI=0.5190, NMI=0.6146, MSE=0.609438, Runtime=0.0087s
